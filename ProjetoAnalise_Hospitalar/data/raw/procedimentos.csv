@@ -1,0 +1,6 @@
+id_procedimento,descricao,custo_unitario
+1,Consulta médica,150
+2,Exame de sangue,80
+3,Raio-X,200
+4,Cirurgia,5000
+5,Diária hospitalar,300

@@ -1,0 +1,593 @@
+id_internacao,id_procedimento,quantidade,custo_total,id_paciente,data_entrada,data_saida,setor,nome,idade,sexo,descricao,custo_unitario,tempo_internacao,custo_medio_item,ano,mes,dia,faixa_etaria
+1,2,1,80,65,2024-09-20,2024-09-29,Centro Cirúrgico,Paciente_65,20,F,Exame de sangue,80,9,80.0,2024,9,20,Adulto
+1,1,2,300,65,2024-09-20,2024-09-29,Centro Cirúrgico,Paciente_65,20,F,Consulta médica,150,9,150.0,2024,9,20,Adulto
+1,5,3,900,65,2024-09-20,2024-09-29,Centro Cirúrgico,Paciente_65,20,F,Diária hospitalar,300,9,300.0,2024,9,20,Adulto
+2,3,2,400,68,2024-05-12,2024-05-13,Emergência,Paciente_68,82,F,Raio-X,200,1,200.0,2024,5,12,Idoso
+3,4,1,5000,90,2024-07-21,2024-07-27,Enfermaria,Paciente_90,7,F,Cirurgia,5000,6,5000.0,2024,7,21,Criança
+4,3,1,200,21,2024-05-16,2024-05-19,Enfermaria,Paciente_21,73,M,Raio-X,200,3,200.0,2024,5,16,Idoso
+4,3,3,600,21,2024-05-16,2024-05-19,Enfermaria,Paciente_21,73,M,Raio-X,200,3,200.0,2024,5,16,Idoso
+5,1,2,300,5,2024-08-22,2024-08-23,Enfermaria,Paciente_5,45,M,Consulta médica,150,1,150.0,2024,8,22,Adulto
+6,2,1,80,50,2024-04-05,2024-04-18,Centro Cirúrgico,Paciente_50,78,F,Exame de sangue,80,13,80.0,2024,4,5,Idoso
+6,3,3,600,50,2024-04-05,2024-04-18,Centro Cirúrgico,Paciente_50,78,F,Raio-X,200,13,200.0,2024,4,5,Idoso
+6,1,1,150,50,2024-04-05,2024-04-18,Centro Cirúrgico,Paciente_50,78,F,Consulta médica,150,13,150.0,2024,4,5,Idoso
+7,1,3,450,22,2024-08-11,2024-08-12,Enfermaria,Paciente_22,59,M,Consulta médica,150,1,150.0,2024,8,11,Adulto
+7,3,2,400,22,2024-08-11,2024-08-12,Enfermaria,Paciente_22,59,M,Raio-X,200,1,200.0,2024,8,11,Adulto
+7,5,3,900,22,2024-08-11,2024-08-12,Enfermaria,Paciente_22,59,M,Diária hospitalar,300,1,300.0,2024,8,11,Adulto
+7,3,1,200,22,2024-08-11,2024-08-12,Enfermaria,Paciente_22,59,M,Raio-X,200,1,200.0,2024,8,11,Adulto
+7,5,2,600,22,2024-08-11,2024-08-12,Enfermaria,Paciente_22,59,M,Diária hospitalar,300,1,300.0,2024,8,11,Adulto
+8,4,2,10000,70,2024-04-18,2024-04-30,UTI,Paciente_70,69,M,Cirurgia,5000,12,5000.0,2024,4,18,Idoso
+9,2,3,240,71,2024-04-29,2024-05-05,Enfermaria,Paciente_71,29,M,Exame de sangue,80,6,80.0,2024,4,29,Adulto
+9,5,2,600,71,2024-04-29,2024-05-05,Enfermaria,Paciente_71,29,M,Diária hospitalar,300,6,300.0,2024,4,29,Adulto
+10,1,3,450,71,2024-07-24,2024-07-27,Enfermaria,Paciente_71,29,M,Consulta médica,150,3,150.0,2024,7,24,Adulto
+10,4,2,10000,71,2024-07-24,2024-07-27,Enfermaria,Paciente_71,29,M,Cirurgia,5000,3,5000.0,2024,7,24,Adulto
+10,3,3,600,71,2024-07-24,2024-07-27,Enfermaria,Paciente_71,29,M,Raio-X,200,3,200.0,2024,7,24,Adulto
+11,3,2,400,51,2024-05-27,2024-06-02,Emergência,Paciente_51,76,F,Raio-X,200,6,200.0,2024,5,27,Idoso
+11,1,2,300,51,2024-05-27,2024-06-02,Emergência,Paciente_51,76,F,Consulta médica,150,6,150.0,2024,5,27,Idoso
+12,1,2,300,33,2024-12-06,2024-12-07,Centro Cirúrgico,Paciente_33,15,M,Consulta médica,150,1,150.0,2024,12,6,Adolescente
+12,2,3,240,33,2024-12-06,2024-12-07,Centro Cirúrgico,Paciente_33,15,M,Exame de sangue,80,1,80.0,2024,12,6,Adolescente
+13,4,3,15000,96,2024-05-28,2024-06-05,Emergência,Paciente_96,53,F,Cirurgia,5000,8,5000.0,2024,5,28,Adulto
+14,5,3,900,75,2024-04-11,2024-04-21,Emergência,Paciente_75,83,M,Diária hospitalar,300,10,300.0,2024,4,11,Idoso
+14,4,2,10000,75,2024-04-11,2024-04-21,Emergência,Paciente_75,83,M,Cirurgia,5000,10,5000.0,2024,4,11,Idoso
+14,2,2,160,75,2024-04-11,2024-04-21,Emergência,Paciente_75,83,M,Exame de sangue,80,10,80.0,2024,4,11,Idoso
+14,3,1,200,75,2024-04-11,2024-04-21,Emergência,Paciente_75,83,M,Raio-X,200,10,200.0,2024,4,11,Idoso
+15,5,2,600,34,2024-02-16,2024-02-24,Centro Cirúrgico,Paciente_34,18,M,Diária hospitalar,300,8,300.0,2024,2,16,Adolescente
+15,1,3,450,34,2024-02-16,2024-02-24,Centro Cirúrgico,Paciente_34,18,M,Consulta médica,150,8,150.0,2024,2,16,Adolescente
+16,2,2,160,99,2024-03-16,2024-03-30,Enfermaria,Paciente_99,7,M,Exame de sangue,80,14,80.0,2024,3,16,Criança
+16,3,1,200,99,2024-03-16,2024-03-30,Enfermaria,Paciente_99,7,M,Raio-X,200,14,200.0,2024,3,16,Criança
+17,3,2,400,14,2024-05-29,2024-06-01,Centro Cirúrgico,Paciente_14,79,F,Raio-X,200,3,200.0,2024,5,29,Idoso
+18,4,2,10000,11,2024-05-09,2024-05-19,Centro Cirúrgico,Paciente_11,25,M,Cirurgia,5000,10,5000.0,2024,5,9,Adulto
+18,1,3,450,11,2024-05-09,2024-05-19,Centro Cirúrgico,Paciente_11,25,M,Consulta médica,150,10,150.0,2024,5,9,Adulto
+18,4,3,15000,11,2024-05-09,2024-05-19,Centro Cirúrgico,Paciente_11,25,M,Cirurgia,5000,10,5000.0,2024,5,9,Adulto
+18,4,3,15000,11,2024-05-09,2024-05-19,Centro Cirúrgico,Paciente_11,25,M,Cirurgia,5000,10,5000.0,2024,5,9,Adulto
+19,5,2,600,33,2024-09-08,2024-09-14,Centro Cirúrgico,Paciente_33,15,M,Diária hospitalar,300,6,300.0,2024,9,8,Adolescente
+19,3,2,400,33,2024-09-08,2024-09-14,Centro Cirúrgico,Paciente_33,15,M,Raio-X,200,6,200.0,2024,9,8,Adolescente
+19,3,1,200,33,2024-09-08,2024-09-14,Centro Cirúrgico,Paciente_33,15,M,Raio-X,200,6,200.0,2024,9,8,Adolescente
+19,1,2,300,33,2024-09-08,2024-09-14,Centro Cirúrgico,Paciente_33,15,M,Consulta médica,150,6,150.0,2024,9,8,Adolescente
+20,5,3,900,75,2024-04-22,2024-04-24,Emergência,Paciente_75,83,M,Diária hospitalar,300,2,300.0,2024,4,22,Idoso
+21,2,3,240,17,2024-05-25,2024-06-06,Centro Cirúrgico,Paciente_17,16,F,Exame de sangue,80,12,80.0,2024,5,25,Adolescente
+21,5,1,300,17,2024-05-25,2024-06-06,Centro Cirúrgico,Paciente_17,16,F,Diária hospitalar,300,12,300.0,2024,5,25,Adolescente
+21,5,2,600,17,2024-05-25,2024-06-06,Centro Cirúrgico,Paciente_17,16,F,Diária hospitalar,300,12,300.0,2024,5,25,Adolescente
+21,2,1,80,17,2024-05-25,2024-06-06,Centro Cirúrgico,Paciente_17,16,F,Exame de sangue,80,12,80.0,2024,5,25,Adolescente
+21,2,1,80,17,2024-05-25,2024-06-06,Centro Cirúrgico,Paciente_17,16,F,Exame de sangue,80,12,80.0,2024,5,25,Adolescente
+22,2,1,80,62,2024-03-14,2024-03-17,UTI,Paciente_62,51,F,Exame de sangue,80,3,80.0,2024,3,14,Adulto
+22,1,1,150,62,2024-03-14,2024-03-17,UTI,Paciente_62,51,F,Consulta médica,150,3,150.0,2024,3,14,Adulto
+22,1,1,150,62,2024-03-14,2024-03-17,UTI,Paciente_62,51,F,Consulta médica,150,3,150.0,2024,3,14,Adulto
+22,1,2,300,62,2024-03-14,2024-03-17,UTI,Paciente_62,51,F,Consulta médica,150,3,150.0,2024,3,14,Adulto
+23,5,2,600,91,2024-12-22,2025-01-06,UTI,Paciente_91,87,F,Diária hospitalar,300,15,300.0,2024,12,22,Idoso
+23,5,2,600,91,2024-12-22,2025-01-06,UTI,Paciente_91,87,F,Diária hospitalar,300,15,300.0,2024,12,22,Idoso
+24,5,2,600,24,2024-09-30,2024-10-13,Emergência,Paciente_24,78,M,Diária hospitalar,300,13,300.0,2024,9,30,Idoso
+24,3,2,400,24,2024-09-30,2024-10-13,Emergência,Paciente_24,78,M,Raio-X,200,13,200.0,2024,9,30,Idoso
+25,2,3,240,69,2024-06-21,2024-07-02,Enfermaria,Paciente_69,47,F,Exame de sangue,80,11,80.0,2024,6,21,Adulto
+25,4,1,5000,69,2024-06-21,2024-07-02,Enfermaria,Paciente_69,47,F,Cirurgia,5000,11,5000.0,2024,6,21,Adulto
+25,5,3,900,69,2024-06-21,2024-07-02,Enfermaria,Paciente_69,47,F,Diária hospitalar,300,11,300.0,2024,6,21,Adulto
+25,4,2,10000,69,2024-06-21,2024-07-02,Enfermaria,Paciente_69,47,F,Cirurgia,5000,11,5000.0,2024,6,21,Adulto
+25,1,3,450,69,2024-06-21,2024-07-02,Enfermaria,Paciente_69,47,F,Consulta médica,150,11,150.0,2024,6,21,Adulto
+26,5,1,300,42,2024-10-20,2024-10-23,Emergência,Paciente_42,29,M,Diária hospitalar,300,3,300.0,2024,10,20,Adulto
+27,3,2,400,41,2024-10-04,2024-10-12,UTI,Paciente_41,34,F,Raio-X,200,8,200.0,2024,10,4,Adulto
+27,2,1,80,41,2024-10-04,2024-10-12,UTI,Paciente_41,34,F,Exame de sangue,80,8,80.0,2024,10,4,Adulto
+28,2,2,160,94,2024-02-14,2024-02-16,Emergência,Paciente_94,9,M,Exame de sangue,80,2,80.0,2024,2,14,Criança
+28,5,3,900,94,2024-02-14,2024-02-16,Emergência,Paciente_94,9,M,Diária hospitalar,300,2,300.0,2024,2,14,Criança
+29,4,3,15000,88,2024-05-21,2024-06-01,UTI,Paciente_88,14,F,Cirurgia,5000,11,5000.0,2024,5,21,Adolescente
+29,1,1,150,88,2024-05-21,2024-06-01,UTI,Paciente_88,14,F,Consulta médica,150,11,150.0,2024,5,21,Adolescente
+30,5,1,300,43,2024-06-11,2024-06-14,UTI,Paciente_43,62,M,Diária hospitalar,300,3,300.0,2024,6,11,Idoso
+30,1,2,300,43,2024-06-11,2024-06-14,UTI,Paciente_43,62,M,Consulta médica,150,3,150.0,2024,6,11,Idoso
+31,3,2,400,56,2024-09-11,2024-09-12,UTI,Paciente_56,14,F,Raio-X,200,1,200.0,2024,9,11,Adolescente
+31,2,2,160,56,2024-09-11,2024-09-12,UTI,Paciente_56,14,F,Exame de sangue,80,1,80.0,2024,9,11,Adolescente
+32,2,1,80,35,2024-12-29,2025-01-02,UTI,Paciente_35,89,F,Exame de sangue,80,4,80.0,2024,12,29,Idoso
+32,1,1,150,35,2024-12-29,2025-01-02,UTI,Paciente_35,89,F,Consulta médica,150,4,150.0,2024,12,29,Idoso
+32,1,3,450,35,2024-12-29,2025-01-02,UTI,Paciente_35,89,F,Consulta médica,150,4,150.0,2024,12,29,Idoso
+32,2,1,80,35,2024-12-29,2025-01-02,UTI,Paciente_35,89,F,Exame de sangue,80,4,80.0,2024,12,29,Idoso
+32,1,1,150,35,2024-12-29,2025-01-02,UTI,Paciente_35,89,F,Consulta médica,150,4,150.0,2024,12,29,Idoso
+33,3,1,200,47,2024-12-01,2024-12-05,Centro Cirúrgico,Paciente_47,71,F,Raio-X,200,4,200.0,2024,12,1,Idoso
+34,2,3,240,20,2024-06-17,2024-06-20,Emergência,Paciente_20,71,M,Exame de sangue,80,3,80.0,2024,6,17,Idoso
+34,3,3,600,20,2024-06-17,2024-06-20,Emergência,Paciente_20,71,M,Raio-X,200,3,200.0,2024,6,17,Idoso
+34,1,2,300,20,2024-06-17,2024-06-20,Emergência,Paciente_20,71,M,Consulta médica,150,3,150.0,2024,6,17,Idoso
+35,3,1,200,80,2024-05-24,2024-05-31,UTI,Paciente_80,18,F,Raio-X,200,7,200.0,2024,5,24,Adolescente
+35,5,1,300,80,2024-05-24,2024-05-31,UTI,Paciente_80,18,F,Diária hospitalar,300,7,300.0,2024,5,24,Adolescente
+35,2,2,160,80,2024-05-24,2024-05-31,UTI,Paciente_80,18,F,Exame de sangue,80,7,80.0,2024,5,24,Adolescente
+36,4,2,10000,60,2024-12-28,2024-12-31,Enfermaria,Paciente_60,4,M,Cirurgia,5000,3,5000.0,2024,12,28,Criança
+36,2,3,240,60,2024-12-28,2024-12-31,Enfermaria,Paciente_60,4,M,Exame de sangue,80,3,80.0,2024,12,28,Criança
+37,5,1,300,71,2024-10-22,2024-11-01,Emergência,Paciente_71,29,M,Diária hospitalar,300,10,300.0,2024,10,22,Adulto
+37,2,1,80,71,2024-10-22,2024-11-01,Emergência,Paciente_71,29,M,Exame de sangue,80,10,80.0,2024,10,22,Adulto
+37,2,2,160,71,2024-10-22,2024-11-01,Emergência,Paciente_71,29,M,Exame de sangue,80,10,80.0,2024,10,22,Adulto
+37,2,3,240,71,2024-10-22,2024-11-01,Emergência,Paciente_71,29,M,Exame de sangue,80,10,80.0,2024,10,22,Adulto
+37,2,3,240,71,2024-10-22,2024-11-01,Emergência,Paciente_71,29,M,Exame de sangue,80,10,80.0,2024,10,22,Adulto
+38,2,2,160,22,2024-06-25,2024-06-28,Enfermaria,Paciente_22,59,M,Exame de sangue,80,3,80.0,2024,6,25,Adulto
+38,5,2,600,22,2024-06-25,2024-06-28,Enfermaria,Paciente_22,59,M,Diária hospitalar,300,3,300.0,2024,6,25,Adulto
+38,4,1,5000,22,2024-06-25,2024-06-28,Enfermaria,Paciente_22,59,M,Cirurgia,5000,3,5000.0,2024,6,25,Adulto
+38,4,3,15000,22,2024-06-25,2024-06-28,Enfermaria,Paciente_22,59,M,Cirurgia,5000,3,5000.0,2024,6,25,Adulto
+38,3,3,600,22,2024-06-25,2024-06-28,Enfermaria,Paciente_22,59,M,Raio-X,200,3,200.0,2024,6,25,Adulto
+39,4,1,5000,98,2024-04-24,2024-05-06,Enfermaria,Paciente_98,4,F,Cirurgia,5000,12,5000.0,2024,4,24,Criança
+39,5,1,300,98,2024-04-24,2024-05-06,Enfermaria,Paciente_98,4,F,Diária hospitalar,300,12,300.0,2024,4,24,Criança
+40,2,1,80,66,2024-09-29,2024-10-10,UTI,Paciente_66,14,F,Exame de sangue,80,11,80.0,2024,9,29,Adolescente
+40,5,3,900,66,2024-09-29,2024-10-10,UTI,Paciente_66,14,F,Diária hospitalar,300,11,300.0,2024,9,29,Adolescente
+40,1,1,150,66,2024-09-29,2024-10-10,UTI,Paciente_66,14,F,Consulta médica,150,11,150.0,2024,9,29,Adolescente
+40,5,3,900,66,2024-09-29,2024-10-10,UTI,Paciente_66,14,F,Diária hospitalar,300,11,300.0,2024,9,29,Adolescente
+40,2,3,240,66,2024-09-29,2024-10-10,UTI,Paciente_66,14,F,Exame de sangue,80,11,80.0,2024,9,29,Adolescente
+41,5,1,300,12,2024-09-12,2024-09-23,UTI,Paciente_12,89,M,Diária hospitalar,300,11,300.0,2024,9,12,Idoso
+42,1,1,150,78,2024-09-13,2024-09-18,Emergência,Paciente_78,77,M,Consulta médica,150,5,150.0,2024,9,13,Idoso
+42,3,1,200,78,2024-09-13,2024-09-18,Emergência,Paciente_78,77,M,Raio-X,200,5,200.0,2024,9,13,Idoso
+42,4,3,15000,78,2024-09-13,2024-09-18,Emergência,Paciente_78,77,M,Cirurgia,5000,5,5000.0,2024,9,13,Idoso
+42,1,3,450,78,2024-09-13,2024-09-18,Emergência,Paciente_78,77,M,Consulta médica,150,5,150.0,2024,9,13,Idoso
+43,3,1,200,59,2024-12-21,2024-12-22,Emergência,Paciente_59,63,M,Raio-X,200,1,200.0,2024,12,21,Idoso
+43,5,1,300,59,2024-12-21,2024-12-22,Emergência,Paciente_59,63,M,Diária hospitalar,300,1,300.0,2024,12,21,Idoso
+43,1,2,300,59,2024-12-21,2024-12-22,Emergência,Paciente_59,63,M,Consulta médica,150,1,150.0,2024,12,21,Idoso
+44,4,1,5000,81,2024-03-17,2024-03-30,Centro Cirúrgico,Paciente_81,9,F,Cirurgia,5000,13,5000.0,2024,3,17,Criança
+45,4,1,5000,52,2024-05-14,2024-05-28,Enfermaria,Paciente_52,25,F,Cirurgia,5000,14,5000.0,2024,5,14,Adulto
+46,5,3,900,48,2024-05-30,2024-06-07,Emergência,Paciente_48,81,M,Diária hospitalar,300,8,300.0,2024,5,30,Idoso
+47,3,1,200,29,2024-03-07,2024-03-08,Centro Cirúrgico,Paciente_29,78,M,Raio-X,200,1,200.0,2024,3,7,Idoso
+47,3,1,200,29,2024-03-07,2024-03-08,Centro Cirúrgico,Paciente_29,78,M,Raio-X,200,1,200.0,2024,3,7,Idoso
+47,2,1,80,29,2024-03-07,2024-03-08,Centro Cirúrgico,Paciente_29,78,M,Exame de sangue,80,1,80.0,2024,3,7,Idoso
+47,4,2,10000,29,2024-03-07,2024-03-08,Centro Cirúrgico,Paciente_29,78,M,Cirurgia,5000,1,5000.0,2024,3,7,Idoso
+48,4,1,5000,26,2024-07-07,2024-07-15,Emergência,Paciente_26,52,F,Cirurgia,5000,8,5000.0,2024,7,7,Adulto
+48,2,1,80,26,2024-07-07,2024-07-15,Emergência,Paciente_26,52,F,Exame de sangue,80,8,80.0,2024,7,7,Adulto
+48,3,2,400,26,2024-07-07,2024-07-15,Emergência,Paciente_26,52,F,Raio-X,200,8,200.0,2024,7,7,Adulto
+48,3,3,600,26,2024-07-07,2024-07-15,Emergência,Paciente_26,52,F,Raio-X,200,8,200.0,2024,7,7,Adulto
+48,1,1,150,26,2024-07-07,2024-07-15,Emergência,Paciente_26,52,F,Consulta médica,150,8,150.0,2024,7,7,Adulto
+49,3,2,400,100,2024-02-25,2024-03-10,Enfermaria,Paciente_100,19,M,Raio-X,200,14,200.0,2024,2,25,Adulto
+49,4,3,15000,100,2024-02-25,2024-03-10,Enfermaria,Paciente_100,19,M,Cirurgia,5000,14,5000.0,2024,2,25,Adulto
+49,4,1,5000,100,2024-02-25,2024-03-10,Enfermaria,Paciente_100,19,M,Cirurgia,5000,14,5000.0,2024,2,25,Adulto
+49,4,3,15000,100,2024-02-25,2024-03-10,Enfermaria,Paciente_100,19,M,Cirurgia,5000,14,5000.0,2024,2,25,Adulto
+49,3,1,200,100,2024-02-25,2024-03-10,Enfermaria,Paciente_100,19,M,Raio-X,200,14,200.0,2024,2,25,Adulto
+50,1,3,450,50,2024-03-13,2024-03-28,Emergência,Paciente_50,78,F,Consulta médica,150,15,150.0,2024,3,13,Idoso
+50,2,1,80,50,2024-03-13,2024-03-28,Emergência,Paciente_50,78,F,Exame de sangue,80,15,80.0,2024,3,13,Idoso
+50,2,2,160,50,2024-03-13,2024-03-28,Emergência,Paciente_50,78,F,Exame de sangue,80,15,80.0,2024,3,13,Idoso
+50,4,1,5000,50,2024-03-13,2024-03-28,Emergência,Paciente_50,78,F,Cirurgia,5000,15,5000.0,2024,3,13,Idoso
+50,3,1,200,50,2024-03-13,2024-03-28,Emergência,Paciente_50,78,F,Raio-X,200,15,200.0,2024,3,13,Idoso
+51,2,2,160,86,2024-09-09,2024-09-22,Enfermaria,Paciente_86,13,F,Exame de sangue,80,13,80.0,2024,9,9,Adolescente
+51,3,1,200,86,2024-09-09,2024-09-22,Enfermaria,Paciente_86,13,F,Raio-X,200,13,200.0,2024,9,9,Adolescente
+51,5,2,600,86,2024-09-09,2024-09-22,Enfermaria,Paciente_86,13,F,Diária hospitalar,300,13,300.0,2024,9,9,Adolescente
+52,5,1,300,76,2024-01-08,2024-01-18,Emergência,Paciente_76,74,F,Diária hospitalar,300,10,300.0,2024,1,8,Idoso
+52,4,2,10000,76,2024-01-08,2024-01-18,Emergência,Paciente_76,74,F,Cirurgia,5000,10,5000.0,2024,1,8,Idoso
+52,4,1,5000,76,2024-01-08,2024-01-18,Emergência,Paciente_76,74,F,Cirurgia,5000,10,5000.0,2024,1,8,Idoso
+53,5,2,600,53,2024-09-04,2024-09-10,UTI,Paciente_53,5,F,Diária hospitalar,300,6,300.0,2024,9,4,Criança
+53,2,2,160,53,2024-09-04,2024-09-10,UTI,Paciente_53,5,F,Exame de sangue,80,6,80.0,2024,9,4,Criança
+53,4,2,10000,53,2024-09-04,2024-09-10,UTI,Paciente_53,5,F,Cirurgia,5000,6,5000.0,2024,9,4,Criança
+53,1,3,450,53,2024-09-04,2024-09-10,UTI,Paciente_53,5,F,Consulta médica,150,6,150.0,2024,9,4,Criança
+54,3,3,600,79,2024-08-20,2024-08-29,Emergência,Paciente_79,40,M,Raio-X,200,9,200.0,2024,8,20,Adulto
+54,3,3,600,79,2024-08-20,2024-08-29,Emergência,Paciente_79,40,M,Raio-X,200,9,200.0,2024,8,20,Adulto
+54,3,1,200,79,2024-08-20,2024-08-29,Emergência,Paciente_79,40,M,Raio-X,200,9,200.0,2024,8,20,Adulto
+54,1,2,300,79,2024-08-20,2024-08-29,Emergência,Paciente_79,40,M,Consulta médica,150,9,150.0,2024,8,20,Adulto
+55,4,2,10000,21,2024-03-27,2024-03-30,Emergência,Paciente_21,73,M,Cirurgia,5000,3,5000.0,2024,3,27,Idoso
+56,1,2,300,25,2024-02-08,2024-02-23,Emergência,Paciente_25,1,F,Consulta médica,150,15,150.0,2024,2,8,Criança
+57,2,2,160,45,2024-08-06,2024-08-14,UTI,Paciente_45,47,M,Exame de sangue,80,8,80.0,2024,8,6,Adulto
+57,2,3,240,45,2024-08-06,2024-08-14,UTI,Paciente_45,47,M,Exame de sangue,80,8,80.0,2024,8,6,Adulto
+58,5,2,600,29,2024-01-12,2024-01-23,Enfermaria,Paciente_29,78,M,Diária hospitalar,300,11,300.0,2024,1,12,Idoso
+58,3,2,400,29,2024-01-12,2024-01-23,Enfermaria,Paciente_29,78,M,Raio-X,200,11,200.0,2024,1,12,Idoso
+58,4,2,10000,29,2024-01-12,2024-01-23,Enfermaria,Paciente_29,78,M,Cirurgia,5000,11,5000.0,2024,1,12,Idoso
+58,5,2,600,29,2024-01-12,2024-01-23,Enfermaria,Paciente_29,78,M,Diária hospitalar,300,11,300.0,2024,1,12,Idoso
+59,2,3,240,2,2024-11-17,2024-11-26,UTI,Paciente_2,48,M,Exame de sangue,80,9,80.0,2024,11,17,Adulto
+60,4,2,10000,39,2024-05-21,2024-05-27,Enfermaria,Paciente_39,60,F,Cirurgia,5000,6,5000.0,2024,5,21,Adulto
+61,4,1,5000,93,2024-12-12,2024-12-25,Centro Cirúrgico,Paciente_93,87,F,Cirurgia,5000,13,5000.0,2024,12,12,Idoso
+62,2,2,160,92,2024-03-07,2024-03-15,Enfermaria,Paciente_92,47,F,Exame de sangue,80,8,80.0,2024,3,7,Adulto
+62,5,2,600,92,2024-03-07,2024-03-15,Enfermaria,Paciente_92,47,F,Diária hospitalar,300,8,300.0,2024,3,7,Adulto
+62,5,3,900,92,2024-03-07,2024-03-15,Enfermaria,Paciente_92,47,F,Diária hospitalar,300,8,300.0,2024,3,7,Adulto
+62,1,3,450,92,2024-03-07,2024-03-15,Enfermaria,Paciente_92,47,F,Consulta médica,150,8,150.0,2024,3,7,Adulto
+63,2,2,160,49,2024-10-13,2024-10-26,Centro Cirúrgico,Paciente_49,73,F,Exame de sangue,80,13,80.0,2024,10,13,Idoso
+63,4,3,15000,49,2024-10-13,2024-10-26,Centro Cirúrgico,Paciente_49,73,F,Cirurgia,5000,13,5000.0,2024,10,13,Idoso
+63,4,1,5000,49,2024-10-13,2024-10-26,Centro Cirúrgico,Paciente_49,73,F,Cirurgia,5000,13,5000.0,2024,10,13,Idoso
+63,1,1,150,49,2024-10-13,2024-10-26,Centro Cirúrgico,Paciente_49,73,F,Consulta médica,150,13,150.0,2024,10,13,Idoso
+64,4,3,15000,81,2024-11-30,2024-12-12,Centro Cirúrgico,Paciente_81,9,F,Cirurgia,5000,12,5000.0,2024,11,30,Criança
+64,4,1,5000,81,2024-11-30,2024-12-12,Centro Cirúrgico,Paciente_81,9,F,Cirurgia,5000,12,5000.0,2024,11,30,Criança
+64,2,2,160,81,2024-11-30,2024-12-12,Centro Cirúrgico,Paciente_81,9,F,Exame de sangue,80,12,80.0,2024,11,30,Criança
+64,1,3,450,81,2024-11-30,2024-12-12,Centro Cirúrgico,Paciente_81,9,F,Consulta médica,150,12,150.0,2024,11,30,Criança
+65,5,2,600,69,2024-07-26,2024-07-30,Emergência,Paciente_69,47,F,Diária hospitalar,300,4,300.0,2024,7,26,Adulto
+65,3,2,400,69,2024-07-26,2024-07-30,Emergência,Paciente_69,47,F,Raio-X,200,4,200.0,2024,7,26,Adulto
+65,2,1,80,69,2024-07-26,2024-07-30,Emergência,Paciente_69,47,F,Exame de sangue,80,4,80.0,2024,7,26,Adulto
+65,4,1,5000,69,2024-07-26,2024-07-30,Emergência,Paciente_69,47,F,Cirurgia,5000,4,5000.0,2024,7,26,Adulto
+65,2,2,160,69,2024-07-26,2024-07-30,Emergência,Paciente_69,47,F,Exame de sangue,80,4,80.0,2024,7,26,Adulto
+66,3,1,200,35,2024-12-03,2024-12-12,Emergência,Paciente_35,89,F,Raio-X,200,9,200.0,2024,12,3,Idoso
+66,4,1,5000,35,2024-12-03,2024-12-12,Emergência,Paciente_35,89,F,Cirurgia,5000,9,5000.0,2024,12,3,Idoso
+66,1,3,450,35,2024-12-03,2024-12-12,Emergência,Paciente_35,89,F,Consulta médica,150,9,150.0,2024,12,3,Idoso
+67,2,1,80,90,2024-11-10,2024-11-17,Enfermaria,Paciente_90,7,F,Exame de sangue,80,7,80.0,2024,11,10,Criança
+67,3,1,200,90,2024-11-10,2024-11-17,Enfermaria,Paciente_90,7,F,Raio-X,200,7,200.0,2024,11,10,Criança
+67,2,3,240,90,2024-11-10,2024-11-17,Enfermaria,Paciente_90,7,F,Exame de sangue,80,7,80.0,2024,11,10,Criança
+68,3,2,400,39,2024-03-12,2024-03-15,UTI,Paciente_39,60,F,Raio-X,200,3,200.0,2024,3,12,Adulto
+69,1,2,300,6,2024-06-01,2024-06-06,UTI,Paciente_6,62,F,Consulta médica,150,5,150.0,2024,6,1,Idoso
+69,1,1,150,6,2024-06-01,2024-06-06,UTI,Paciente_6,62,F,Consulta médica,150,5,150.0,2024,6,1,Idoso
+69,4,3,15000,6,2024-06-01,2024-06-06,UTI,Paciente_6,62,F,Cirurgia,5000,5,5000.0,2024,6,1,Idoso
+70,4,2,10000,86,2024-08-14,2024-08-22,Emergência,Paciente_86,13,F,Cirurgia,5000,8,5000.0,2024,8,14,Adolescente
+70,5,1,300,86,2024-08-14,2024-08-22,Emergência,Paciente_86,13,F,Diária hospitalar,300,8,300.0,2024,8,14,Adolescente
+71,1,3,450,69,2024-11-24,2024-12-05,Enfermaria,Paciente_69,47,F,Consulta médica,150,11,150.0,2024,11,24,Adulto
+71,1,3,450,69,2024-11-24,2024-12-05,Enfermaria,Paciente_69,47,F,Consulta médica,150,11,150.0,2024,11,24,Adulto
+71,1,1,150,69,2024-11-24,2024-12-05,Enfermaria,Paciente_69,47,F,Consulta médica,150,11,150.0,2024,11,24,Adulto
+72,1,1,150,79,2024-08-04,2024-08-17,Emergência,Paciente_79,40,M,Consulta médica,150,13,150.0,2024,8,4,Adulto
+72,5,2,600,79,2024-08-04,2024-08-17,Emergência,Paciente_79,40,M,Diária hospitalar,300,13,300.0,2024,8,4,Adulto
+72,1,1,150,79,2024-08-04,2024-08-17,Emergência,Paciente_79,40,M,Consulta médica,150,13,150.0,2024,8,4,Adulto
+72,4,1,5000,79,2024-08-04,2024-08-17,Emergência,Paciente_79,40,M,Cirurgia,5000,13,5000.0,2024,8,4,Adulto
+72,3,1,200,79,2024-08-04,2024-08-17,Emergência,Paciente_79,40,M,Raio-X,200,13,200.0,2024,8,4,Adulto
+73,2,2,160,64,2024-04-05,2024-04-10,Emergência,Paciente_64,23,F,Exame de sangue,80,5,80.0,2024,4,5,Adulto
+73,4,3,15000,64,2024-04-05,2024-04-10,Emergência,Paciente_64,23,F,Cirurgia,5000,5,5000.0,2024,4,5,Adulto
+73,1,3,450,64,2024-04-05,2024-04-10,Emergência,Paciente_64,23,F,Consulta médica,150,5,150.0,2024,4,5,Adulto
+73,5,1,300,64,2024-04-05,2024-04-10,Emergência,Paciente_64,23,F,Diária hospitalar,300,5,300.0,2024,4,5,Adulto
+74,4,2,10000,41,2024-10-07,2024-10-13,UTI,Paciente_41,34,F,Cirurgia,5000,6,5000.0,2024,10,7,Adulto
+74,3,2,400,41,2024-10-07,2024-10-13,UTI,Paciente_41,34,F,Raio-X,200,6,200.0,2024,10,7,Adulto
+74,3,3,600,41,2024-10-07,2024-10-13,UTI,Paciente_41,34,F,Raio-X,200,6,200.0,2024,10,7,Adulto
+74,4,3,15000,41,2024-10-07,2024-10-13,UTI,Paciente_41,34,F,Cirurgia,5000,6,5000.0,2024,10,7,Adulto
+75,1,3,450,48,2024-01-23,2024-02-01,Enfermaria,Paciente_48,81,M,Consulta médica,150,9,150.0,2024,1,23,Idoso
+75,2,3,240,48,2024-01-23,2024-02-01,Enfermaria,Paciente_48,81,M,Exame de sangue,80,9,80.0,2024,1,23,Idoso
+76,1,2,300,21,2024-09-01,2024-09-14,Emergência,Paciente_21,73,M,Consulta médica,150,13,150.0,2024,9,1,Idoso
+76,2,1,80,21,2024-09-01,2024-09-14,Emergência,Paciente_21,73,M,Exame de sangue,80,13,80.0,2024,9,1,Idoso
+77,3,1,200,60,2024-08-03,2024-08-14,Centro Cirúrgico,Paciente_60,4,M,Raio-X,200,11,200.0,2024,8,3,Criança
+77,3,2,400,60,2024-08-03,2024-08-14,Centro Cirúrgico,Paciente_60,4,M,Raio-X,200,11,200.0,2024,8,3,Criança
+78,4,2,10000,95,2024-12-30,2025-01-08,Emergência,Paciente_95,35,F,Cirurgia,5000,9,5000.0,2024,12,30,Adulto
+78,5,2,600,95,2024-12-30,2025-01-08,Emergência,Paciente_95,35,F,Diária hospitalar,300,9,300.0,2024,12,30,Adulto
+78,1,1,150,95,2024-12-30,2025-01-08,Emergência,Paciente_95,35,F,Consulta médica,150,9,150.0,2024,12,30,Adulto
+78,5,3,900,95,2024-12-30,2025-01-08,Emergência,Paciente_95,35,F,Diária hospitalar,300,9,300.0,2024,12,30,Adulto
+79,3,2,400,40,2024-01-17,2024-01-20,Emergência,Paciente_40,27,F,Raio-X,200,3,200.0,2024,1,17,Adulto
+79,4,1,5000,40,2024-01-17,2024-01-20,Emergência,Paciente_40,27,F,Cirurgia,5000,3,5000.0,2024,1,17,Adulto
+79,4,2,10000,40,2024-01-17,2024-01-20,Emergência,Paciente_40,27,F,Cirurgia,5000,3,5000.0,2024,1,17,Adulto
+80,1,1,150,65,2024-02-19,2024-02-24,Emergência,Paciente_65,20,F,Consulta médica,150,5,150.0,2024,2,19,Adulto
+80,3,3,600,65,2024-02-19,2024-02-24,Emergência,Paciente_65,20,F,Raio-X,200,5,200.0,2024,2,19,Adulto
+80,2,1,80,65,2024-02-19,2024-02-24,Emergência,Paciente_65,20,F,Exame de sangue,80,5,80.0,2024,2,19,Adulto
+80,3,2,400,65,2024-02-19,2024-02-24,Emergência,Paciente_65,20,F,Raio-X,200,5,200.0,2024,2,19,Adulto
+81,2,1,80,12,2024-05-30,2024-06-08,Centro Cirúrgico,Paciente_12,89,M,Exame de sangue,80,9,80.0,2024,5,30,Idoso
+81,3,1,200,12,2024-05-30,2024-06-08,Centro Cirúrgico,Paciente_12,89,M,Raio-X,200,9,200.0,2024,5,30,Idoso
+81,4,3,15000,12,2024-05-30,2024-06-08,Centro Cirúrgico,Paciente_12,89,M,Cirurgia,5000,9,5000.0,2024,5,30,Idoso
+81,4,2,10000,12,2024-05-30,2024-06-08,Centro Cirúrgico,Paciente_12,89,M,Cirurgia,5000,9,5000.0,2024,5,30,Idoso
+81,2,1,80,12,2024-05-30,2024-06-08,Centro Cirúrgico,Paciente_12,89,M,Exame de sangue,80,9,80.0,2024,5,30,Idoso
+82,4,2,10000,15,2024-02-26,2024-03-06,Emergência,Paciente_15,43,F,Cirurgia,5000,9,5000.0,2024,2,26,Adulto
+82,5,1,300,15,2024-02-26,2024-03-06,Emergência,Paciente_15,43,F,Diária hospitalar,300,9,300.0,2024,2,26,Adulto
+82,5,1,300,15,2024-02-26,2024-03-06,Emergência,Paciente_15,43,F,Diária hospitalar,300,9,300.0,2024,2,26,Adulto
+83,2,1,80,58,2024-05-08,2024-05-19,Emergência,Paciente_58,62,M,Exame de sangue,80,11,80.0,2024,5,8,Idoso
+83,4,3,15000,58,2024-05-08,2024-05-19,Emergência,Paciente_58,62,M,Cirurgia,5000,11,5000.0,2024,5,8,Idoso
+83,5,2,600,58,2024-05-08,2024-05-19,Emergência,Paciente_58,62,M,Diária hospitalar,300,11,300.0,2024,5,8,Idoso
+83,1,3,450,58,2024-05-08,2024-05-19,Emergência,Paciente_58,62,M,Consulta médica,150,11,150.0,2024,5,8,Idoso
+84,2,3,240,82,2024-09-23,2024-10-03,UTI,Paciente_82,9,F,Exame de sangue,80,10,80.0,2024,9,23,Criança
+84,1,2,300,82,2024-09-23,2024-10-03,UTI,Paciente_82,9,F,Consulta médica,150,10,150.0,2024,9,23,Criança
+84,3,2,400,82,2024-09-23,2024-10-03,UTI,Paciente_82,9,F,Raio-X,200,10,200.0,2024,9,23,Criança
+85,5,2,600,37,2024-02-19,2024-03-02,Centro Cirúrgico,Paciente_37,14,F,Diária hospitalar,300,12,300.0,2024,2,19,Adolescente
+85,2,2,160,37,2024-02-19,2024-03-02,Centro Cirúrgico,Paciente_37,14,F,Exame de sangue,80,12,80.0,2024,2,19,Adolescente
+86,5,1,300,2,2024-04-02,2024-04-04,Enfermaria,Paciente_2,48,M,Diária hospitalar,300,2,300.0,2024,4,2,Adulto
+86,2,2,160,2,2024-04-02,2024-04-04,Enfermaria,Paciente_2,48,M,Exame de sangue,80,2,80.0,2024,4,2,Adulto
+86,2,1,80,2,2024-04-02,2024-04-04,Enfermaria,Paciente_2,48,M,Exame de sangue,80,2,80.0,2024,4,2,Adulto
+86,3,3,600,2,2024-04-02,2024-04-04,Enfermaria,Paciente_2,48,M,Raio-X,200,2,200.0,2024,4,2,Adulto
+87,4,2,10000,11,2024-12-12,2024-12-18,Enfermaria,Paciente_11,25,M,Cirurgia,5000,6,5000.0,2024,12,12,Adulto
+87,3,1,200,11,2024-12-12,2024-12-18,Enfermaria,Paciente_11,25,M,Raio-X,200,6,200.0,2024,12,12,Adulto
+87,4,3,15000,11,2024-12-12,2024-12-18,Enfermaria,Paciente_11,25,M,Cirurgia,5000,6,5000.0,2024,12,12,Adulto
+87,3,1,200,11,2024-12-12,2024-12-18,Enfermaria,Paciente_11,25,M,Raio-X,200,6,200.0,2024,12,12,Adulto
+87,2,2,160,11,2024-12-12,2024-12-18,Enfermaria,Paciente_11,25,M,Exame de sangue,80,6,80.0,2024,12,12,Adulto
+88,4,2,10000,29,2024-03-29,2024-04-11,Emergência,Paciente_29,78,M,Cirurgia,5000,13,5000.0,2024,3,29,Idoso
+88,4,2,10000,29,2024-03-29,2024-04-11,Emergência,Paciente_29,78,M,Cirurgia,5000,13,5000.0,2024,3,29,Idoso
+89,4,3,15000,78,2024-11-08,2024-11-18,Emergência,Paciente_78,77,M,Cirurgia,5000,10,5000.0,2024,11,8,Idoso
+89,5,1,300,78,2024-11-08,2024-11-18,Emergência,Paciente_78,77,M,Diária hospitalar,300,10,300.0,2024,11,8,Idoso
+89,2,2,160,78,2024-11-08,2024-11-18,Emergência,Paciente_78,77,M,Exame de sangue,80,10,80.0,2024,11,8,Idoso
+89,1,3,450,78,2024-11-08,2024-11-18,Emergência,Paciente_78,77,M,Consulta médica,150,10,150.0,2024,11,8,Idoso
+89,1,2,300,78,2024-11-08,2024-11-18,Emergência,Paciente_78,77,M,Consulta médica,150,10,150.0,2024,11,8,Idoso
+90,1,1,150,82,2024-08-08,2024-08-21,Emergência,Paciente_82,9,F,Consulta médica,150,13,150.0,2024,8,8,Criança
+90,1,1,150,82,2024-08-08,2024-08-21,Emergência,Paciente_82,9,F,Consulta médica,150,13,150.0,2024,8,8,Criança
+90,5,2,600,82,2024-08-08,2024-08-21,Emergência,Paciente_82,9,F,Diária hospitalar,300,13,300.0,2024,8,8,Criança
+90,2,3,240,82,2024-08-08,2024-08-21,Emergência,Paciente_82,9,F,Exame de sangue,80,13,80.0,2024,8,8,Criança
+91,1,1,150,2,2024-09-04,2024-09-06,UTI,Paciente_2,48,M,Consulta médica,150,2,150.0,2024,9,4,Adulto
+92,3,2,400,20,2024-04-12,2024-04-15,UTI,Paciente_20,71,M,Raio-X,200,3,200.0,2024,4,12,Idoso
+92,5,2,600,20,2024-04-12,2024-04-15,UTI,Paciente_20,71,M,Diária hospitalar,300,3,300.0,2024,4,12,Idoso
+92,3,2,400,20,2024-04-12,2024-04-15,UTI,Paciente_20,71,M,Raio-X,200,3,200.0,2024,4,12,Idoso
+92,4,1,5000,20,2024-04-12,2024-04-15,UTI,Paciente_20,71,M,Cirurgia,5000,3,5000.0,2024,4,12,Idoso
+92,3,3,600,20,2024-04-12,2024-04-15,UTI,Paciente_20,71,M,Raio-X,200,3,200.0,2024,4,12,Idoso
+93,1,3,450,77,2024-02-27,2024-02-29,Enfermaria,Paciente_77,21,M,Consulta médica,150,2,150.0,2024,2,27,Adulto
+93,1,1,150,77,2024-02-27,2024-02-29,Enfermaria,Paciente_77,21,M,Consulta médica,150,2,150.0,2024,2,27,Adulto
+93,1,1,150,77,2024-02-27,2024-02-29,Enfermaria,Paciente_77,21,M,Consulta médica,150,2,150.0,2024,2,27,Adulto
+93,3,2,400,77,2024-02-27,2024-02-29,Enfermaria,Paciente_77,21,M,Raio-X,200,2,200.0,2024,2,27,Adulto
+93,5,2,600,77,2024-02-27,2024-02-29,Enfermaria,Paciente_77,21,M,Diária hospitalar,300,2,300.0,2024,2,27,Adulto
+94,1,2,300,57,2024-10-01,2024-10-02,Enfermaria,Paciente_57,33,F,Consulta médica,150,1,150.0,2024,10,1,Adulto
+95,5,2,600,90,2024-05-22,2024-05-27,Enfermaria,Paciente_90,7,F,Diária hospitalar,300,5,300.0,2024,5,22,Criança
+95,3,2,400,90,2024-05-22,2024-05-27,Enfermaria,Paciente_90,7,F,Raio-X,200,5,200.0,2024,5,22,Criança
+95,1,3,450,90,2024-05-22,2024-05-27,Enfermaria,Paciente_90,7,F,Consulta médica,150,5,150.0,2024,5,22,Criança
+95,5,2,600,90,2024-05-22,2024-05-27,Enfermaria,Paciente_90,7,F,Diária hospitalar,300,5,300.0,2024,5,22,Criança
+96,4,3,15000,22,2024-07-06,2024-07-14,Centro Cirúrgico,Paciente_22,59,M,Cirurgia,5000,8,5000.0,2024,7,6,Adulto
+96,5,2,600,22,2024-07-06,2024-07-14,Centro Cirúrgico,Paciente_22,59,M,Diária hospitalar,300,8,300.0,2024,7,6,Adulto
+96,5,2,600,22,2024-07-06,2024-07-14,Centro Cirúrgico,Paciente_22,59,M,Diária hospitalar,300,8,300.0,2024,7,6,Adulto
+96,2,3,240,22,2024-07-06,2024-07-14,Centro Cirúrgico,Paciente_22,59,M,Exame de sangue,80,8,80.0,2024,7,6,Adulto
+96,5,2,600,22,2024-07-06,2024-07-14,Centro Cirúrgico,Paciente_22,59,M,Diária hospitalar,300,8,300.0,2024,7,6,Adulto
+97,5,3,900,43,2024-06-17,2024-06-27,UTI,Paciente_43,62,M,Diária hospitalar,300,10,300.0,2024,6,17,Idoso
+98,3,1,200,2,2024-08-08,2024-08-11,Centro Cirúrgico,Paciente_2,48,M,Raio-X,200,3,200.0,2024,8,8,Adulto
+99,2,1,80,56,2024-12-22,2024-12-30,UTI,Paciente_56,14,F,Exame de sangue,80,8,80.0,2024,12,22,Adolescente
+99,4,3,15000,56,2024-12-22,2024-12-30,UTI,Paciente_56,14,F,Cirurgia,5000,8,5000.0,2024,12,22,Adolescente
+99,3,3,600,56,2024-12-22,2024-12-30,UTI,Paciente_56,14,F,Raio-X,200,8,200.0,2024,12,22,Adolescente
+99,3,1,200,56,2024-12-22,2024-12-30,UTI,Paciente_56,14,F,Raio-X,200,8,200.0,2024,12,22,Adolescente
+100,4,3,15000,5,2024-09-16,2024-09-25,Emergência,Paciente_5,45,M,Cirurgia,5000,9,5000.0,2024,9,16,Adulto
+100,3,2,400,5,2024-09-16,2024-09-25,Emergência,Paciente_5,45,M,Raio-X,200,9,200.0,2024,9,16,Adulto
+100,4,3,15000,5,2024-09-16,2024-09-25,Emergência,Paciente_5,45,M,Cirurgia,5000,9,5000.0,2024,9,16,Adulto
+101,2,2,160,31,2024-11-16,2024-11-28,UTI,Paciente_31,21,M,Exame de sangue,80,12,80.0,2024,11,16,Adulto
+101,1,1,150,31,2024-11-16,2024-11-28,UTI,Paciente_31,21,M,Consulta médica,150,12,150.0,2024,11,16,Adulto
+102,3,3,600,99,2024-05-13,2024-05-18,Centro Cirúrgico,Paciente_99,7,M,Raio-X,200,5,200.0,2024,5,13,Criança
+102,3,3,600,99,2024-05-13,2024-05-18,Centro Cirúrgico,Paciente_99,7,M,Raio-X,200,5,200.0,2024,5,13,Criança
+102,5,3,900,99,2024-05-13,2024-05-18,Centro Cirúrgico,Paciente_99,7,M,Diária hospitalar,300,5,300.0,2024,5,13,Criança
+102,4,2,10000,99,2024-05-13,2024-05-18,Centro Cirúrgico,Paciente_99,7,M,Cirurgia,5000,5,5000.0,2024,5,13,Criança
+102,3,3,600,99,2024-05-13,2024-05-18,Centro Cirúrgico,Paciente_99,7,M,Raio-X,200,5,200.0,2024,5,13,Criança
+103,2,2,160,83,2024-05-22,2024-06-04,Enfermaria,Paciente_83,2,M,Exame de sangue,80,13,80.0,2024,5,22,Criança
+103,2,3,240,83,2024-05-22,2024-06-04,Enfermaria,Paciente_83,2,M,Exame de sangue,80,13,80.0,2024,5,22,Criança
+104,3,3,600,26,2024-07-27,2024-08-06,Enfermaria,Paciente_26,52,F,Raio-X,200,10,200.0,2024,7,27,Adulto
+104,2,1,80,26,2024-07-27,2024-08-06,Enfermaria,Paciente_26,52,F,Exame de sangue,80,10,80.0,2024,7,27,Adulto
+105,2,1,80,92,2024-08-29,2024-09-07,UTI,Paciente_92,47,F,Exame de sangue,80,9,80.0,2024,8,29,Adulto
+105,4,2,10000,92,2024-08-29,2024-09-07,UTI,Paciente_92,47,F,Cirurgia,5000,9,5000.0,2024,8,29,Adulto
+106,3,2,400,94,2024-11-04,2024-11-16,Emergência,Paciente_94,9,M,Raio-X,200,12,200.0,2024,11,4,Criança
+106,4,1,5000,94,2024-11-04,2024-11-16,Emergência,Paciente_94,9,M,Cirurgia,5000,12,5000.0,2024,11,4,Criança
+106,5,2,600,94,2024-11-04,2024-11-16,Emergência,Paciente_94,9,M,Diária hospitalar,300,12,300.0,2024,11,4,Criança
+106,5,1,300,94,2024-11-04,2024-11-16,Emergência,Paciente_94,9,M,Diária hospitalar,300,12,300.0,2024,11,4,Criança
+107,1,1,150,26,2024-07-26,2024-08-05,Centro Cirúrgico,Paciente_26,52,F,Consulta médica,150,10,150.0,2024,7,26,Adulto
+107,5,1,300,26,2024-07-26,2024-08-05,Centro Cirúrgico,Paciente_26,52,F,Diária hospitalar,300,10,300.0,2024,7,26,Adulto
+107,5,2,600,26,2024-07-26,2024-08-05,Centro Cirúrgico,Paciente_26,52,F,Diária hospitalar,300,10,300.0,2024,7,26,Adulto
+108,5,3,900,38,2024-05-24,2024-06-07,Emergência,Paciente_38,87,M,Diária hospitalar,300,14,300.0,2024,5,24,Idoso
+108,1,3,450,38,2024-05-24,2024-06-07,Emergência,Paciente_38,87,M,Consulta médica,150,14,150.0,2024,5,24,Idoso
+109,3,2,400,62,2024-11-24,2024-11-27,UTI,Paciente_62,51,F,Raio-X,200,3,200.0,2024,11,24,Adulto
+109,4,3,15000,62,2024-11-24,2024-11-27,UTI,Paciente_62,51,F,Cirurgia,5000,3,5000.0,2024,11,24,Adulto
+109,4,2,10000,62,2024-11-24,2024-11-27,UTI,Paciente_62,51,F,Cirurgia,5000,3,5000.0,2024,11,24,Adulto
+110,3,2,400,93,2024-01-25,2024-02-04,Emergência,Paciente_93,87,F,Raio-X,200,10,200.0,2024,1,25,Idoso
+110,1,1,150,93,2024-01-25,2024-02-04,Emergência,Paciente_93,87,F,Consulta médica,150,10,150.0,2024,1,25,Idoso
+110,2,2,160,93,2024-01-25,2024-02-04,Emergência,Paciente_93,87,F,Exame de sangue,80,10,80.0,2024,1,25,Idoso
+110,5,1,300,93,2024-01-25,2024-02-04,Emergência,Paciente_93,87,F,Diária hospitalar,300,10,300.0,2024,1,25,Idoso
+110,4,1,5000,93,2024-01-25,2024-02-04,Emergência,Paciente_93,87,F,Cirurgia,5000,10,5000.0,2024,1,25,Idoso
+111,5,1,300,95,2024-05-10,2024-05-11,UTI,Paciente_95,35,F,Diária hospitalar,300,1,300.0,2024,5,10,Adulto
+111,4,3,15000,95,2024-05-10,2024-05-11,UTI,Paciente_95,35,F,Cirurgia,5000,1,5000.0,2024,5,10,Adulto
+112,1,3,450,23,2024-03-05,2024-03-10,Enfermaria,Paciente_23,10,M,Consulta médica,150,5,150.0,2024,3,5,Criança
+112,1,3,450,23,2024-03-05,2024-03-10,Enfermaria,Paciente_23,10,M,Consulta médica,150,5,150.0,2024,3,5,Criança
+112,2,1,80,23,2024-03-05,2024-03-10,Enfermaria,Paciente_23,10,M,Exame de sangue,80,5,80.0,2024,3,5,Criança
+112,2,1,80,23,2024-03-05,2024-03-10,Enfermaria,Paciente_23,10,M,Exame de sangue,80,5,80.0,2024,3,5,Criança
+112,4,1,5000,23,2024-03-05,2024-03-10,Enfermaria,Paciente_23,10,M,Cirurgia,5000,5,5000.0,2024,3,5,Criança
+113,4,2,10000,95,2024-03-17,2024-03-30,Centro Cirúrgico,Paciente_95,35,F,Cirurgia,5000,13,5000.0,2024,3,17,Adulto
+113,1,3,450,95,2024-03-17,2024-03-30,Centro Cirúrgico,Paciente_95,35,F,Consulta médica,150,13,150.0,2024,3,17,Adulto
+113,4,1,5000,95,2024-03-17,2024-03-30,Centro Cirúrgico,Paciente_95,35,F,Cirurgia,5000,13,5000.0,2024,3,17,Adulto
+113,3,1,200,95,2024-03-17,2024-03-30,Centro Cirúrgico,Paciente_95,35,F,Raio-X,200,13,200.0,2024,3,17,Adulto
+114,5,1,300,80,2024-01-24,2024-02-02,UTI,Paciente_80,18,F,Diária hospitalar,300,9,300.0,2024,1,24,Adolescente
+114,1,3,450,80,2024-01-24,2024-02-02,UTI,Paciente_80,18,F,Consulta médica,150,9,150.0,2024,1,24,Adolescente
+115,5,1,300,35,2024-07-14,2024-07-23,Enfermaria,Paciente_35,89,F,Diária hospitalar,300,9,300.0,2024,7,14,Idoso
+115,4,3,15000,35,2024-07-14,2024-07-23,Enfermaria,Paciente_35,89,F,Cirurgia,5000,9,5000.0,2024,7,14,Idoso
+115,2,3,240,35,2024-07-14,2024-07-23,Enfermaria,Paciente_35,89,F,Exame de sangue,80,9,80.0,2024,7,14,Idoso
+115,2,3,240,35,2024-07-14,2024-07-23,Enfermaria,Paciente_35,89,F,Exame de sangue,80,9,80.0,2024,7,14,Idoso
+115,2,3,240,35,2024-07-14,2024-07-23,Enfermaria,Paciente_35,89,F,Exame de sangue,80,9,80.0,2024,7,14,Idoso
+116,3,1,200,79,2024-04-25,2024-05-02,Emergência,Paciente_79,40,M,Raio-X,200,7,200.0,2024,4,25,Adulto
+116,5,3,900,79,2024-04-25,2024-05-02,Emergência,Paciente_79,40,M,Diária hospitalar,300,7,300.0,2024,4,25,Adulto
+117,3,1,200,91,2024-05-25,2024-05-26,UTI,Paciente_91,87,F,Raio-X,200,1,200.0,2024,5,25,Idoso
+117,3,2,400,91,2024-05-25,2024-05-26,UTI,Paciente_91,87,F,Raio-X,200,1,200.0,2024,5,25,Idoso
+117,4,2,10000,91,2024-05-25,2024-05-26,UTI,Paciente_91,87,F,Cirurgia,5000,1,5000.0,2024,5,25,Idoso
+117,5,2,600,91,2024-05-25,2024-05-26,UTI,Paciente_91,87,F,Diária hospitalar,300,1,300.0,2024,5,25,Idoso
+117,5,3,900,91,2024-05-25,2024-05-26,UTI,Paciente_91,87,F,Diária hospitalar,300,1,300.0,2024,5,25,Idoso
+118,3,2,400,15,2024-01-26,2024-02-04,Emergência,Paciente_15,43,F,Raio-X,200,9,200.0,2024,1,26,Adulto
+118,2,3,240,15,2024-01-26,2024-02-04,Emergência,Paciente_15,43,F,Exame de sangue,80,9,80.0,2024,1,26,Adulto
+118,4,3,15000,15,2024-01-26,2024-02-04,Emergência,Paciente_15,43,F,Cirurgia,5000,9,5000.0,2024,1,26,Adulto
+119,5,2,600,92,2024-10-15,2024-10-26,UTI,Paciente_92,47,F,Diária hospitalar,300,11,300.0,2024,10,15,Adulto
+119,4,3,15000,92,2024-10-15,2024-10-26,UTI,Paciente_92,47,F,Cirurgia,5000,11,5000.0,2024,10,15,Adulto
+119,3,3,600,92,2024-10-15,2024-10-26,UTI,Paciente_92,47,F,Raio-X,200,11,200.0,2024,10,15,Adulto
+119,1,3,450,92,2024-10-15,2024-10-26,UTI,Paciente_92,47,F,Consulta médica,150,11,150.0,2024,10,15,Adulto
+119,1,3,450,92,2024-10-15,2024-10-26,UTI,Paciente_92,47,F,Consulta médica,150,11,150.0,2024,10,15,Adulto
+120,1,2,300,84,2024-04-08,2024-04-15,Emergência,Paciente_84,82,F,Consulta médica,150,7,150.0,2024,4,8,Idoso
+120,2,2,160,84,2024-04-08,2024-04-15,Emergência,Paciente_84,82,F,Exame de sangue,80,7,80.0,2024,4,8,Idoso
+120,3,2,400,84,2024-04-08,2024-04-15,Emergência,Paciente_84,82,F,Raio-X,200,7,200.0,2024,4,8,Idoso
+121,5,3,900,66,2024-06-24,2024-07-03,Emergência,Paciente_66,14,F,Diária hospitalar,300,9,300.0,2024,6,24,Adolescente
+122,2,2,160,21,2024-01-20,2024-01-21,UTI,Paciente_21,73,M,Exame de sangue,80,1,80.0,2024,1,20,Idoso
+122,3,3,600,21,2024-01-20,2024-01-21,UTI,Paciente_21,73,M,Raio-X,200,1,200.0,2024,1,20,Idoso
+123,4,3,15000,44,2024-12-20,2024-12-22,UTI,Paciente_44,83,M,Cirurgia,5000,2,5000.0,2024,12,20,Idoso
+123,3,2,400,44,2024-12-20,2024-12-22,UTI,Paciente_44,83,M,Raio-X,200,2,200.0,2024,12,20,Idoso
+123,3,1,200,44,2024-12-20,2024-12-22,UTI,Paciente_44,83,M,Raio-X,200,2,200.0,2024,12,20,Idoso
+124,4,1,5000,41,2024-12-29,2024-12-31,Centro Cirúrgico,Paciente_41,34,F,Cirurgia,5000,2,5000.0,2024,12,29,Adulto
+124,1,1,150,41,2024-12-29,2024-12-31,Centro Cirúrgico,Paciente_41,34,F,Consulta médica,150,2,150.0,2024,12,29,Adulto
+124,3,2,400,41,2024-12-29,2024-12-31,Centro Cirúrgico,Paciente_41,34,F,Raio-X,200,2,200.0,2024,12,29,Adulto
+124,2,1,80,41,2024-12-29,2024-12-31,Centro Cirúrgico,Paciente_41,34,F,Exame de sangue,80,2,80.0,2024,12,29,Adulto
+125,1,2,300,39,2024-08-17,2024-08-30,Enfermaria,Paciente_39,60,F,Consulta médica,150,13,150.0,2024,8,17,Adulto
+125,1,2,300,39,2024-08-17,2024-08-30,Enfermaria,Paciente_39,60,F,Consulta médica,150,13,150.0,2024,8,17,Adulto
+125,1,2,300,39,2024-08-17,2024-08-30,Enfermaria,Paciente_39,60,F,Consulta médica,150,13,150.0,2024,8,17,Adulto
+126,1,2,300,79,2024-02-01,2024-02-16,UTI,Paciente_79,40,M,Consulta médica,150,15,150.0,2024,2,1,Adulto
+126,3,3,600,79,2024-02-01,2024-02-16,UTI,Paciente_79,40,M,Raio-X,200,15,200.0,2024,2,1,Adulto
+126,4,2,10000,79,2024-02-01,2024-02-16,UTI,Paciente_79,40,M,Cirurgia,5000,15,5000.0,2024,2,1,Adulto
+126,2,3,240,79,2024-02-01,2024-02-16,UTI,Paciente_79,40,M,Exame de sangue,80,15,80.0,2024,2,1,Adulto
+127,3,2,400,36,2024-11-16,2024-11-21,Emergência,Paciente_36,6,F,Raio-X,200,5,200.0,2024,11,16,Criança
+127,3,1,200,36,2024-11-16,2024-11-21,Emergência,Paciente_36,6,F,Raio-X,200,5,200.0,2024,11,16,Criança
+127,2,3,240,36,2024-11-16,2024-11-21,Emergência,Paciente_36,6,F,Exame de sangue,80,5,80.0,2024,11,16,Criança
+127,4,3,15000,36,2024-11-16,2024-11-21,Emergência,Paciente_36,6,F,Cirurgia,5000,5,5000.0,2024,11,16,Criança
+128,4,2,10000,46,2024-10-01,2024-10-12,UTI,Paciente_46,78,F,Cirurgia,5000,11,5000.0,2024,10,1,Idoso
+128,5,3,900,46,2024-10-01,2024-10-12,UTI,Paciente_46,78,F,Diária hospitalar,300,11,300.0,2024,10,1,Idoso
+128,1,2,300,46,2024-10-01,2024-10-12,UTI,Paciente_46,78,F,Consulta médica,150,11,150.0,2024,10,1,Idoso
+129,1,1,150,51,2024-08-29,2024-09-06,Emergência,Paciente_51,76,F,Consulta médica,150,8,150.0,2024,8,29,Idoso
+129,4,2,10000,51,2024-08-29,2024-09-06,Emergência,Paciente_51,76,F,Cirurgia,5000,8,5000.0,2024,8,29,Idoso
+129,2,3,240,51,2024-08-29,2024-09-06,Emergência,Paciente_51,76,F,Exame de sangue,80,8,80.0,2024,8,29,Idoso
+129,2,1,80,51,2024-08-29,2024-09-06,Emergência,Paciente_51,76,F,Exame de sangue,80,8,80.0,2024,8,29,Idoso
+129,5,1,300,51,2024-08-29,2024-09-06,Emergência,Paciente_51,76,F,Diária hospitalar,300,8,300.0,2024,8,29,Idoso
+130,3,3,600,65,2024-10-21,2024-10-25,Emergência,Paciente_65,20,F,Raio-X,200,4,200.0,2024,10,21,Adulto
+130,2,1,80,65,2024-10-21,2024-10-25,Emergência,Paciente_65,20,F,Exame de sangue,80,4,80.0,2024,10,21,Adulto
+130,2,1,80,65,2024-10-21,2024-10-25,Emergência,Paciente_65,20,F,Exame de sangue,80,4,80.0,2024,10,21,Adulto
+130,3,3,600,65,2024-10-21,2024-10-25,Emergência,Paciente_65,20,F,Raio-X,200,4,200.0,2024,10,21,Adulto
+130,3,2,400,65,2024-10-21,2024-10-25,Emergência,Paciente_65,20,F,Raio-X,200,4,200.0,2024,10,21,Adulto
+131,1,1,150,69,2024-04-12,2024-04-19,UTI,Paciente_69,47,F,Consulta médica,150,7,150.0,2024,4,12,Adulto
+131,4,3,15000,69,2024-04-12,2024-04-19,UTI,Paciente_69,47,F,Cirurgia,5000,7,5000.0,2024,4,12,Adulto
+132,2,3,240,33,2024-10-23,2024-11-02,Centro Cirúrgico,Paciente_33,15,M,Exame de sangue,80,10,80.0,2024,10,23,Adolescente
+132,4,1,5000,33,2024-10-23,2024-11-02,Centro Cirúrgico,Paciente_33,15,M,Cirurgia,5000,10,5000.0,2024,10,23,Adolescente
+133,4,3,15000,72,2024-03-05,2024-03-18,Emergência,Paciente_72,7,M,Cirurgia,5000,13,5000.0,2024,3,5,Criança
+133,1,2,300,72,2024-03-05,2024-03-18,Emergência,Paciente_72,7,M,Consulta médica,150,13,150.0,2024,3,5,Criança
+133,3,1,200,72,2024-03-05,2024-03-18,Emergência,Paciente_72,7,M,Raio-X,200,13,200.0,2024,3,5,Criança
+133,5,2,600,72,2024-03-05,2024-03-18,Emergência,Paciente_72,7,M,Diária hospitalar,300,13,300.0,2024,3,5,Criança
+134,5,2,600,89,2024-10-13,2024-10-21,Centro Cirúrgico,Paciente_89,72,F,Diária hospitalar,300,8,300.0,2024,10,13,Idoso
+134,2,2,160,89,2024-10-13,2024-10-21,Centro Cirúrgico,Paciente_89,72,F,Exame de sangue,80,8,80.0,2024,10,13,Idoso
+135,4,3,15000,49,2024-10-02,2024-10-05,UTI,Paciente_49,73,F,Cirurgia,5000,3,5000.0,2024,10,2,Idoso
+135,2,1,80,49,2024-10-02,2024-10-05,UTI,Paciente_49,73,F,Exame de sangue,80,3,80.0,2024,10,2,Idoso
+135,2,3,240,49,2024-10-02,2024-10-05,UTI,Paciente_49,73,F,Exame de sangue,80,3,80.0,2024,10,2,Idoso
+135,3,1,200,49,2024-10-02,2024-10-05,UTI,Paciente_49,73,F,Raio-X,200,3,200.0,2024,10,2,Idoso
+136,2,3,240,76,2024-07-09,2024-07-16,Emergência,Paciente_76,74,F,Exame de sangue,80,7,80.0,2024,7,9,Idoso
+136,5,1,300,76,2024-07-09,2024-07-16,Emergência,Paciente_76,74,F,Diária hospitalar,300,7,300.0,2024,7,9,Idoso
+136,4,3,15000,76,2024-07-09,2024-07-16,Emergência,Paciente_76,74,F,Cirurgia,5000,7,5000.0,2024,7,9,Idoso
+137,4,3,15000,84,2024-12-21,2024-12-27,Emergência,Paciente_84,82,F,Cirurgia,5000,6,5000.0,2024,12,21,Idoso
+137,1,2,300,84,2024-12-21,2024-12-27,Emergência,Paciente_84,82,F,Consulta médica,150,6,150.0,2024,12,21,Idoso
+137,4,3,15000,84,2024-12-21,2024-12-27,Emergência,Paciente_84,82,F,Cirurgia,5000,6,5000.0,2024,12,21,Idoso
+137,2,2,160,84,2024-12-21,2024-12-27,Emergência,Paciente_84,82,F,Exame de sangue,80,6,80.0,2024,12,21,Idoso
+138,2,1,80,12,2024-06-16,2024-07-01,UTI,Paciente_12,89,M,Exame de sangue,80,15,80.0,2024,6,16,Idoso
+138,2,2,160,12,2024-06-16,2024-07-01,UTI,Paciente_12,89,M,Exame de sangue,80,15,80.0,2024,6,16,Idoso
+138,1,1,150,12,2024-06-16,2024-07-01,UTI,Paciente_12,89,M,Consulta médica,150,15,150.0,2024,6,16,Idoso
+138,5,3,900,12,2024-06-16,2024-07-01,UTI,Paciente_12,89,M,Diária hospitalar,300,15,300.0,2024,6,16,Idoso
+138,1,3,450,12,2024-06-16,2024-07-01,UTI,Paciente_12,89,M,Consulta médica,150,15,150.0,2024,6,16,Idoso
+139,4,3,15000,42,2024-06-02,2024-06-06,Emergência,Paciente_42,29,M,Cirurgia,5000,4,5000.0,2024,6,2,Adulto
+139,3,3,600,42,2024-06-02,2024-06-06,Emergência,Paciente_42,29,M,Raio-X,200,4,200.0,2024,6,2,Adulto
+139,1,3,450,42,2024-06-02,2024-06-06,Emergência,Paciente_42,29,M,Consulta médica,150,4,150.0,2024,6,2,Adulto
+140,5,1,300,69,2024-06-22,2024-06-24,UTI,Paciente_69,47,F,Diária hospitalar,300,2,300.0,2024,6,22,Adulto
+140,2,3,240,69,2024-06-22,2024-06-24,UTI,Paciente_69,47,F,Exame de sangue,80,2,80.0,2024,6,22,Adulto
+140,4,1,5000,69,2024-06-22,2024-06-24,UTI,Paciente_69,47,F,Cirurgia,5000,2,5000.0,2024,6,22,Adulto
+140,1,3,450,69,2024-06-22,2024-06-24,UTI,Paciente_69,47,F,Consulta médica,150,2,150.0,2024,6,22,Adulto
+140,4,3,15000,69,2024-06-22,2024-06-24,UTI,Paciente_69,47,F,Cirurgia,5000,2,5000.0,2024,6,22,Adulto
+141,3,3,600,97,2024-06-06,2024-06-08,Emergência,Paciente_97,24,M,Raio-X,200,2,200.0,2024,6,6,Adulto
+141,4,2,10000,97,2024-06-06,2024-06-08,Emergência,Paciente_97,24,M,Cirurgia,5000,2,5000.0,2024,6,6,Adulto
+141,2,1,80,97,2024-06-06,2024-06-08,Emergência,Paciente_97,24,M,Exame de sangue,80,2,80.0,2024,6,6,Adulto
+142,4,2,10000,25,2024-12-20,2024-12-22,Centro Cirúrgico,Paciente_25,1,F,Cirurgia,5000,2,5000.0,2024,12,20,Criança
+143,5,1,300,51,2024-06-04,2024-06-06,Enfermaria,Paciente_51,76,F,Diária hospitalar,300,2,300.0,2024,6,4,Idoso
+143,4,2,10000,51,2024-06-04,2024-06-06,Enfermaria,Paciente_51,76,F,Cirurgia,5000,2,5000.0,2024,6,4,Idoso
+144,2,2,160,7,2024-04-26,2024-05-06,UTI,Paciente_7,87,M,Exame de sangue,80,10,80.0,2024,4,26,Idoso
+145,5,3,900,44,2024-09-18,2024-09-22,Centro Cirúrgico,Paciente_44,83,M,Diária hospitalar,300,4,300.0,2024,9,18,Idoso
+145,2,2,160,44,2024-09-18,2024-09-22,Centro Cirúrgico,Paciente_44,83,M,Exame de sangue,80,4,80.0,2024,9,18,Idoso
+145,1,2,300,44,2024-09-18,2024-09-22,Centro Cirúrgico,Paciente_44,83,M,Consulta médica,150,4,150.0,2024,9,18,Idoso
+145,4,2,10000,44,2024-09-18,2024-09-22,Centro Cirúrgico,Paciente_44,83,M,Cirurgia,5000,4,5000.0,2024,9,18,Idoso
+145,3,2,400,44,2024-09-18,2024-09-22,Centro Cirúrgico,Paciente_44,83,M,Raio-X,200,4,200.0,2024,9,18,Idoso
+146,2,2,160,74,2024-05-03,2024-05-08,UTI,Paciente_74,72,M,Exame de sangue,80,5,80.0,2024,5,3,Idoso
+146,5,2,600,74,2024-05-03,2024-05-08,UTI,Paciente_74,72,M,Diária hospitalar,300,5,300.0,2024,5,3,Idoso
+146,2,1,80,74,2024-05-03,2024-05-08,UTI,Paciente_74,72,M,Exame de sangue,80,5,80.0,2024,5,3,Idoso
+147,3,3,600,5,2024-09-28,2024-10-12,Centro Cirúrgico,Paciente_5,45,M,Raio-X,200,14,200.0,2024,9,28,Adulto
+147,4,2,10000,5,2024-09-28,2024-10-12,Centro Cirúrgico,Paciente_5,45,M,Cirurgia,5000,14,5000.0,2024,9,28,Adulto
+148,5,1,300,54,2024-02-11,2024-02-25,Emergência,Paciente_54,32,F,Diária hospitalar,300,14,300.0,2024,2,11,Adulto
+148,2,3,240,54,2024-02-11,2024-02-25,Emergência,Paciente_54,32,F,Exame de sangue,80,14,80.0,2024,2,11,Adulto
+148,1,3,450,54,2024-02-11,2024-02-25,Emergência,Paciente_54,32,F,Consulta médica,150,14,150.0,2024,2,11,Adulto
+149,1,3,450,100,2024-02-18,2024-02-25,Emergência,Paciente_100,19,M,Consulta médica,150,7,150.0,2024,2,18,Adulto
+149,4,1,5000,100,2024-02-18,2024-02-25,Emergência,Paciente_100,19,M,Cirurgia,5000,7,5000.0,2024,2,18,Adulto
+149,3,1,200,100,2024-02-18,2024-02-25,Emergência,Paciente_100,19,M,Raio-X,200,7,200.0,2024,2,18,Adulto
+149,1,2,300,100,2024-02-18,2024-02-25,Emergência,Paciente_100,19,M,Consulta médica,150,7,150.0,2024,2,18,Adulto
+150,3,2,400,56,2024-06-26,2024-07-07,UTI,Paciente_56,14,F,Raio-X,200,11,200.0,2024,6,26,Adolescente
+151,2,3,240,24,2024-09-30,2024-10-07,Enfermaria,Paciente_24,78,M,Exame de sangue,80,7,80.0,2024,9,30,Idoso
+151,2,3,240,24,2024-09-30,2024-10-07,Enfermaria,Paciente_24,78,M,Exame de sangue,80,7,80.0,2024,9,30,Idoso
+151,1,3,450,24,2024-09-30,2024-10-07,Enfermaria,Paciente_24,78,M,Consulta médica,150,7,150.0,2024,9,30,Idoso
+151,4,1,5000,24,2024-09-30,2024-10-07,Enfermaria,Paciente_24,78,M,Cirurgia,5000,7,5000.0,2024,9,30,Idoso
+152,5,3,900,9,2024-04-30,2024-05-07,UTI,Paciente_9,65,M,Diária hospitalar,300,7,300.0,2024,4,30,Idoso
+152,1,3,450,9,2024-04-30,2024-05-07,UTI,Paciente_9,65,M,Consulta médica,150,7,150.0,2024,4,30,Idoso
+152,2,3,240,9,2024-04-30,2024-05-07,UTI,Paciente_9,65,M,Exame de sangue,80,7,80.0,2024,4,30,Idoso
+152,5,3,900,9,2024-04-30,2024-05-07,UTI,Paciente_9,65,M,Diária hospitalar,300,7,300.0,2024,4,30,Idoso
+152,2,1,80,9,2024-04-30,2024-05-07,UTI,Paciente_9,65,M,Exame de sangue,80,7,80.0,2024,4,30,Idoso
+153,4,2,10000,31,2024-03-03,2024-03-09,Enfermaria,Paciente_31,21,M,Cirurgia,5000,6,5000.0,2024,3,3,Adulto
+153,1,3,450,31,2024-03-03,2024-03-09,Enfermaria,Paciente_31,21,M,Consulta médica,150,6,150.0,2024,3,3,Adulto
+153,2,2,160,31,2024-03-03,2024-03-09,Enfermaria,Paciente_31,21,M,Exame de sangue,80,6,80.0,2024,3,3,Adulto
+153,1,1,150,31,2024-03-03,2024-03-09,Enfermaria,Paciente_31,21,M,Consulta médica,150,6,150.0,2024,3,3,Adulto
+154,1,2,300,16,2024-04-05,2024-04-12,Enfermaria,Paciente_16,33,F,Consulta médica,150,7,150.0,2024,4,5,Adulto
+154,2,3,240,16,2024-04-05,2024-04-12,Enfermaria,Paciente_16,33,F,Exame de sangue,80,7,80.0,2024,4,5,Adulto
+155,5,2,600,67,2024-11-07,2024-11-22,Centro Cirúrgico,Paciente_67,2,M,Diária hospitalar,300,15,300.0,2024,11,7,Criança
+155,2,2,160,67,2024-11-07,2024-11-22,Centro Cirúrgico,Paciente_67,2,M,Exame de sangue,80,15,80.0,2024,11,7,Criança
+156,5,3,900,1,2024-01-01,2024-01-12,Enfermaria,Paciente_1,36,F,Diária hospitalar,300,11,300.0,2024,1,1,Adulto
+156,3,3,600,1,2024-01-01,2024-01-12,Enfermaria,Paciente_1,36,F,Raio-X,200,11,200.0,2024,1,1,Adulto
+157,2,2,160,46,2024-07-21,2024-07-31,Centro Cirúrgico,Paciente_46,78,F,Exame de sangue,80,10,80.0,2024,7,21,Idoso
+157,3,1,200,46,2024-07-21,2024-07-31,Centro Cirúrgico,Paciente_46,78,F,Raio-X,200,10,200.0,2024,7,21,Idoso
+158,1,1,150,16,2024-12-08,2024-12-13,Emergência,Paciente_16,33,F,Consulta médica,150,5,150.0,2024,12,8,Adulto
+158,1,3,450,16,2024-12-08,2024-12-13,Emergência,Paciente_16,33,F,Consulta médica,150,5,150.0,2024,12,8,Adulto
+159,5,2,600,53,2024-11-30,2024-12-14,Emergência,Paciente_53,5,F,Diária hospitalar,300,14,300.0,2024,11,30,Criança
+159,1,1,150,53,2024-11-30,2024-12-14,Emergência,Paciente_53,5,F,Consulta médica,150,14,150.0,2024,11,30,Criança
+159,2,1,80,53,2024-11-30,2024-12-14,Emergência,Paciente_53,5,F,Exame de sangue,80,14,80.0,2024,11,30,Criança
+160,4,2,10000,23,2024-02-21,2024-02-22,Centro Cirúrgico,Paciente_23,10,M,Cirurgia,5000,1,5000.0,2024,2,21,Criança
+160,2,1,80,23,2024-02-21,2024-02-22,Centro Cirúrgico,Paciente_23,10,M,Exame de sangue,80,1,80.0,2024,2,21,Criança
+161,1,2,300,47,2024-05-19,2024-05-20,UTI,Paciente_47,71,F,Consulta médica,150,1,150.0,2024,5,19,Idoso
+161,2,2,160,47,2024-05-19,2024-05-20,UTI,Paciente_47,71,F,Exame de sangue,80,1,80.0,2024,5,19,Idoso
+161,5,3,900,47,2024-05-19,2024-05-20,UTI,Paciente_47,71,F,Diária hospitalar,300,1,300.0,2024,5,19,Idoso
+161,4,3,15000,47,2024-05-19,2024-05-20,UTI,Paciente_47,71,F,Cirurgia,5000,1,5000.0,2024,5,19,Idoso
+162,1,2,300,21,2024-01-30,2024-02-01,Enfermaria,Paciente_21,73,M,Consulta médica,150,2,150.0,2024,1,30,Idoso
+162,3,1,200,21,2024-01-30,2024-02-01,Enfermaria,Paciente_21,73,M,Raio-X,200,2,200.0,2024,1,30,Idoso
+162,4,3,15000,21,2024-01-30,2024-02-01,Enfermaria,Paciente_21,73,M,Cirurgia,5000,2,5000.0,2024,1,30,Idoso
+162,1,1,150,21,2024-01-30,2024-02-01,Enfermaria,Paciente_21,73,M,Consulta médica,150,2,150.0,2024,1,30,Idoso
+162,3,2,400,21,2024-01-30,2024-02-01,Enfermaria,Paciente_21,73,M,Raio-X,200,2,200.0,2024,1,30,Idoso
+163,5,3,900,76,2024-07-15,2024-07-23,Emergência,Paciente_76,74,F,Diária hospitalar,300,8,300.0,2024,7,15,Idoso
+163,2,2,160,76,2024-07-15,2024-07-23,Emergência,Paciente_76,74,F,Exame de sangue,80,8,80.0,2024,7,15,Idoso
+163,1,2,300,76,2024-07-15,2024-07-23,Emergência,Paciente_76,74,F,Consulta médica,150,8,150.0,2024,7,15,Idoso
+164,2,1,80,4,2024-02-18,2024-02-25,Centro Cirúrgico,Paciente_4,35,F,Exame de sangue,80,7,80.0,2024,2,18,Adulto
+165,2,2,160,39,2024-04-23,2024-04-30,UTI,Paciente_39,60,F,Exame de sangue,80,7,80.0,2024,4,23,Adulto
+165,1,2,300,39,2024-04-23,2024-04-30,UTI,Paciente_39,60,F,Consulta médica,150,7,150.0,2024,4,23,Adulto
+165,4,1,5000,39,2024-04-23,2024-04-30,UTI,Paciente_39,60,F,Cirurgia,5000,7,5000.0,2024,4,23,Adulto
+165,2,1,80,39,2024-04-23,2024-04-30,UTI,Paciente_39,60,F,Exame de sangue,80,7,80.0,2024,4,23,Adulto
+165,5,2,600,39,2024-04-23,2024-04-30,UTI,Paciente_39,60,F,Diária hospitalar,300,7,300.0,2024,4,23,Adulto
+166,3,1,200,83,2024-01-06,2024-01-18,Enfermaria,Paciente_83,2,M,Raio-X,200,12,200.0,2024,1,6,Criança
+166,3,2,400,83,2024-01-06,2024-01-18,Enfermaria,Paciente_83,2,M,Raio-X,200,12,200.0,2024,1,6,Criança
+166,4,1,5000,83,2024-01-06,2024-01-18,Enfermaria,Paciente_83,2,M,Cirurgia,5000,12,5000.0,2024,1,6,Criança
+166,3,1,200,83,2024-01-06,2024-01-18,Enfermaria,Paciente_83,2,M,Raio-X,200,12,200.0,2024,1,6,Criança
+166,1,1,150,83,2024-01-06,2024-01-18,Enfermaria,Paciente_83,2,M,Consulta médica,150,12,150.0,2024,1,6,Criança
+167,4,2,10000,16,2024-03-16,2024-03-24,Enfermaria,Paciente_16,33,F,Cirurgia,5000,8,5000.0,2024,3,16,Adulto
+167,2,2,160,16,2024-03-16,2024-03-24,Enfermaria,Paciente_16,33,F,Exame de sangue,80,8,80.0,2024,3,16,Adulto
+168,1,3,450,17,2024-09-13,2024-09-19,UTI,Paciente_17,16,F,Consulta médica,150,6,150.0,2024,9,13,Adolescente
+168,5,3,900,17,2024-09-13,2024-09-19,UTI,Paciente_17,16,F,Diária hospitalar,300,6,300.0,2024,9,13,Adolescente
+168,3,3,600,17,2024-09-13,2024-09-19,UTI,Paciente_17,16,F,Raio-X,200,6,200.0,2024,9,13,Adolescente
+168,3,1,200,17,2024-09-13,2024-09-19,UTI,Paciente_17,16,F,Raio-X,200,6,200.0,2024,9,13,Adolescente
+169,5,2,600,42,2024-07-16,2024-07-20,Enfermaria,Paciente_42,29,M,Diária hospitalar,300,4,300.0,2024,7,16,Adulto
+169,1,2,300,42,2024-07-16,2024-07-20,Enfermaria,Paciente_42,29,M,Consulta médica,150,4,150.0,2024,7,16,Adulto
+169,3,1,200,42,2024-07-16,2024-07-20,Enfermaria,Paciente_42,29,M,Raio-X,200,4,200.0,2024,7,16,Adulto
+170,5,3,900,35,2024-09-01,2024-09-02,Emergência,Paciente_35,89,F,Diária hospitalar,300,1,300.0,2024,9,1,Idoso
+170,3,1,200,35,2024-09-01,2024-09-02,Emergência,Paciente_35,89,F,Raio-X,200,1,200.0,2024,9,1,Idoso
+170,3,1,200,35,2024-09-01,2024-09-02,Emergência,Paciente_35,89,F,Raio-X,200,1,200.0,2024,9,1,Idoso
+171,4,2,10000,64,2024-07-26,2024-08-06,Centro Cirúrgico,Paciente_64,23,F,Cirurgia,5000,11,5000.0,2024,7,26,Adulto
+171,2,2,160,64,2024-07-26,2024-08-06,Centro Cirúrgico,Paciente_64,23,F,Exame de sangue,80,11,80.0,2024,7,26,Adulto
+171,4,3,15000,64,2024-07-26,2024-08-06,Centro Cirúrgico,Paciente_64,23,F,Cirurgia,5000,11,5000.0,2024,7,26,Adulto
+172,4,3,15000,57,2024-11-19,2024-12-02,Enfermaria,Paciente_57,33,F,Cirurgia,5000,13,5000.0,2024,11,19,Adulto
+172,5,2,600,57,2024-11-19,2024-12-02,Enfermaria,Paciente_57,33,F,Diária hospitalar,300,13,300.0,2024,11,19,Adulto
+172,2,1,80,57,2024-11-19,2024-12-02,Enfermaria,Paciente_57,33,F,Exame de sangue,80,13,80.0,2024,11,19,Adulto
+172,4,2,10000,57,2024-11-19,2024-12-02,Enfermaria,Paciente_57,33,F,Cirurgia,5000,13,5000.0,2024,11,19,Adulto
+173,5,1,300,2,2024-11-30,2024-12-02,Centro Cirúrgico,Paciente_2,48,M,Diária hospitalar,300,2,300.0,2024,11,30,Adulto
+173,4,1,5000,2,2024-11-30,2024-12-02,Centro Cirúrgico,Paciente_2,48,M,Cirurgia,5000,2,5000.0,2024,11,30,Adulto
+173,4,1,5000,2,2024-11-30,2024-12-02,Centro Cirúrgico,Paciente_2,48,M,Cirurgia,5000,2,5000.0,2024,11,30,Adulto
+173,4,3,15000,2,2024-11-30,2024-12-02,Centro Cirúrgico,Paciente_2,48,M,Cirurgia,5000,2,5000.0,2024,11,30,Adulto
+174,2,1,80,90,2024-10-12,2024-10-25,UTI,Paciente_90,7,F,Exame de sangue,80,13,80.0,2024,10,12,Criança
+175,1,1,150,80,2024-10-22,2024-10-27,Centro Cirúrgico,Paciente_80,18,F,Consulta médica,150,5,150.0,2024,10,22,Adolescente
+175,1,1,150,80,2024-10-22,2024-10-27,Centro Cirúrgico,Paciente_80,18,F,Consulta médica,150,5,150.0,2024,10,22,Adolescente
+175,3,2,400,80,2024-10-22,2024-10-27,Centro Cirúrgico,Paciente_80,18,F,Raio-X,200,5,200.0,2024,10,22,Adolescente
+176,4,2,10000,18,2024-06-28,2024-07-11,Centro Cirúrgico,Paciente_18,9,F,Cirurgia,5000,13,5000.0,2024,6,28,Criança
+176,2,2,160,18,2024-06-28,2024-07-11,Centro Cirúrgico,Paciente_18,9,F,Exame de sangue,80,13,80.0,2024,6,28,Criança
+176,5,1,300,18,2024-06-28,2024-07-11,Centro Cirúrgico,Paciente_18,9,F,Diária hospitalar,300,13,300.0,2024,6,28,Criança
+176,3,3,600,18,2024-06-28,2024-07-11,Centro Cirúrgico,Paciente_18,9,F,Raio-X,200,13,200.0,2024,6,28,Criança
+177,5,3,900,22,2024-11-06,2024-11-13,Emergência,Paciente_22,59,M,Diária hospitalar,300,7,300.0,2024,11,6,Adulto
+178,2,2,160,75,2024-05-25,2024-06-06,Centro Cirúrgico,Paciente_75,83,M,Exame de sangue,80,12,80.0,2024,5,25,Idoso
+179,5,1,300,54,2024-09-16,2024-09-19,Centro Cirúrgico,Paciente_54,32,F,Diária hospitalar,300,3,300.0,2024,9,16,Adulto
+179,3,3,600,54,2024-09-16,2024-09-19,Centro Cirúrgico,Paciente_54,32,F,Raio-X,200,3,200.0,2024,9,16,Adulto
+179,5,2,600,54,2024-09-16,2024-09-19,Centro Cirúrgico,Paciente_54,32,F,Diária hospitalar,300,3,300.0,2024,9,16,Adulto
+179,4,3,15000,54,2024-09-16,2024-09-19,Centro Cirúrgico,Paciente_54,32,F,Cirurgia,5000,3,5000.0,2024,9,16,Adulto
+179,1,2,300,54,2024-09-16,2024-09-19,Centro Cirúrgico,Paciente_54,32,F,Consulta médica,150,3,150.0,2024,9,16,Adulto
+180,5,1,300,85,2024-09-05,2024-09-10,Emergência,Paciente_85,36,F,Diária hospitalar,300,5,300.0,2024,9,5,Adulto
+181,1,2,300,59,2024-08-12,2024-08-18,Enfermaria,Paciente_59,63,M,Consulta médica,150,6,150.0,2024,8,12,Idoso
+181,3,1,200,59,2024-08-12,2024-08-18,Enfermaria,Paciente_59,63,M,Raio-X,200,6,200.0,2024,8,12,Idoso
+181,3,3,600,59,2024-08-12,2024-08-18,Enfermaria,Paciente_59,63,M,Raio-X,200,6,200.0,2024,8,12,Idoso
+182,5,3,900,27,2024-01-09,2024-01-17,UTI,Paciente_27,77,F,Diária hospitalar,300,8,300.0,2024,1,9,Idoso
+182,2,3,240,27,2024-01-09,2024-01-17,UTI,Paciente_27,77,F,Exame de sangue,80,8,80.0,2024,1,9,Idoso
+182,3,1,200,27,2024-01-09,2024-01-17,UTI,Paciente_27,77,F,Raio-X,200,8,200.0,2024,1,9,Idoso
+183,2,3,240,29,2024-09-12,2024-09-24,UTI,Paciente_29,78,M,Exame de sangue,80,12,80.0,2024,9,12,Idoso
+183,2,1,80,29,2024-09-12,2024-09-24,UTI,Paciente_29,78,M,Exame de sangue,80,12,80.0,2024,9,12,Idoso
+183,2,1,80,29,2024-09-12,2024-09-24,UTI,Paciente_29,78,M,Exame de sangue,80,12,80.0,2024,9,12,Idoso
+184,2,2,160,52,2024-12-13,2024-12-20,Enfermaria,Paciente_52,25,F,Exame de sangue,80,7,80.0,2024,12,13,Adulto
+184,1,2,300,52,2024-12-13,2024-12-20,Enfermaria,Paciente_52,25,F,Consulta médica,150,7,150.0,2024,12,13,Adulto
+184,1,1,150,52,2024-12-13,2024-12-20,Enfermaria,Paciente_52,25,F,Consulta médica,150,7,150.0,2024,12,13,Adulto
+185,2,1,80,21,2024-06-03,2024-06-16,Enfermaria,Paciente_21,73,M,Exame de sangue,80,13,80.0,2024,6,3,Idoso
+185,1,3,450,21,2024-06-03,2024-06-16,Enfermaria,Paciente_21,73,M,Consulta médica,150,13,150.0,2024,6,3,Idoso
+186,5,1,300,29,2024-10-28,2024-11-04,UTI,Paciente_29,78,M,Diária hospitalar,300,7,300.0,2024,10,28,Idoso
+187,5,3,900,4,2024-07-22,2024-08-06,UTI,Paciente_4,35,F,Diária hospitalar,300,15,300.0,2024,7,22,Adulto
+188,4,3,15000,88,2024-03-06,2024-03-12,Centro Cirúrgico,Paciente_88,14,F,Cirurgia,5000,6,5000.0,2024,3,6,Adolescente
+188,5,1,300,88,2024-03-06,2024-03-12,Centro Cirúrgico,Paciente_88,14,F,Diária hospitalar,300,6,300.0,2024,3,6,Adolescente
+188,5,1,300,88,2024-03-06,2024-03-12,Centro Cirúrgico,Paciente_88,14,F,Diária hospitalar,300,6,300.0,2024,3,6,Adolescente
+189,3,2,400,43,2024-12-29,2025-01-09,UTI,Paciente_43,62,M,Raio-X,200,11,200.0,2024,12,29,Idoso
+189,2,3,240,43,2024-12-29,2025-01-09,UTI,Paciente_43,62,M,Exame de sangue,80,11,80.0,2024,12,29,Idoso
+189,1,3,450,43,2024-12-29,2025-01-09,UTI,Paciente_43,62,M,Consulta médica,150,11,150.0,2024,12,29,Idoso
+189,4,1,5000,43,2024-12-29,2025-01-09,UTI,Paciente_43,62,M,Cirurgia,5000,11,5000.0,2024,12,29,Idoso
+190,1,1,150,59,2024-05-06,2024-05-09,UTI,Paciente_59,63,M,Consulta médica,150,3,150.0,2024,5,6,Idoso
+190,1,2,300,59,2024-05-06,2024-05-09,UTI,Paciente_59,63,M,Consulta médica,150,3,150.0,2024,5,6,Idoso
+191,4,2,10000,21,2024-12-08,2024-12-20,Emergência,Paciente_21,73,M,Cirurgia,5000,12,5000.0,2024,12,8,Idoso
+191,5,3,900,21,2024-12-08,2024-12-20,Emergência,Paciente_21,73,M,Diária hospitalar,300,12,300.0,2024,12,8,Idoso
+191,3,2,400,21,2024-12-08,2024-12-20,Emergência,Paciente_21,73,M,Raio-X,200,12,200.0,2024,12,8,Idoso
+192,2,3,240,76,2024-12-02,2024-12-17,Emergência,Paciente_76,74,F,Exame de sangue,80,15,80.0,2024,12,2,Idoso
+193,2,3,240,62,2024-05-23,2024-06-04,Emergência,Paciente_62,51,F,Exame de sangue,80,12,80.0,2024,5,23,Adulto
+193,5,3,900,62,2024-05-23,2024-06-04,Emergência,Paciente_62,51,F,Diária hospitalar,300,12,300.0,2024,5,23,Adulto
+193,2,3,240,62,2024-05-23,2024-06-04,Emergência,Paciente_62,51,F,Exame de sangue,80,12,80.0,2024,5,23,Adulto
+194,1,1,150,40,2024-12-24,2025-01-05,UTI,Paciente_40,27,F,Consulta médica,150,12,150.0,2024,12,24,Adulto
+194,2,1,80,40,2024-12-24,2025-01-05,UTI,Paciente_40,27,F,Exame de sangue,80,12,80.0,2024,12,24,Adulto
+194,1,3,450,40,2024-12-24,2025-01-05,UTI,Paciente_40,27,F,Consulta médica,150,12,150.0,2024,12,24,Adulto
+195,5,1,300,88,2024-09-14,2024-09-27,Emergência,Paciente_88,14,F,Diária hospitalar,300,13,300.0,2024,9,14,Adolescente
+195,2,2,160,88,2024-09-14,2024-09-27,Emergência,Paciente_88,14,F,Exame de sangue,80,13,80.0,2024,9,14,Adolescente
+195,2,3,240,88,2024-09-14,2024-09-27,Emergência,Paciente_88,14,F,Exame de sangue,80,13,80.0,2024,9,14,Adolescente
+196,4,3,15000,90,2024-01-09,2024-01-23,Emergência,Paciente_90,7,F,Cirurgia,5000,14,5000.0,2024,1,9,Criança
+196,4,3,15000,90,2024-01-09,2024-01-23,Emergência,Paciente_90,7,F,Cirurgia,5000,14,5000.0,2024,1,9,Criança
+196,4,3,15000,90,2024-01-09,2024-01-23,Emergência,Paciente_90,7,F,Cirurgia,5000,14,5000.0,2024,1,9,Criança
+196,3,1,200,90,2024-01-09,2024-01-23,Emergência,Paciente_90,7,F,Raio-X,200,14,200.0,2024,1,9,Criança
+197,4,2,10000,16,2024-12-14,2024-12-18,UTI,Paciente_16,33,F,Cirurgia,5000,4,5000.0,2024,12,14,Adulto
+197,3,1,200,16,2024-12-14,2024-12-18,UTI,Paciente_16,33,F,Raio-X,200,4,200.0,2024,12,14,Adulto
+197,4,1,5000,16,2024-12-14,2024-12-18,UTI,Paciente_16,33,F,Cirurgia,5000,4,5000.0,2024,12,14,Adulto
+198,3,2,400,45,2024-11-28,2024-12-01,Enfermaria,Paciente_45,47,M,Raio-X,200,3,200.0,2024,11,28,Adulto
+198,4,2,10000,45,2024-11-28,2024-12-01,Enfermaria,Paciente_45,47,M,Cirurgia,5000,3,5000.0,2024,11,28,Adulto
+198,4,2,10000,45,2024-11-28,2024-12-01,Enfermaria,Paciente_45,47,M,Cirurgia,5000,3,5000.0,2024,11,28,Adulto
+198,1,3,450,45,2024-11-28,2024-12-01,Enfermaria,Paciente_45,47,M,Consulta médica,150,3,150.0,2024,11,28,Adulto
+199,2,1,80,21,2024-09-06,2024-09-16,Emergência,Paciente_21,73,M,Exame de sangue,80,10,80.0,2024,9,6,Idoso
+199,4,3,15000,21,2024-09-06,2024-09-16,Emergência,Paciente_21,73,M,Cirurgia,5000,10,5000.0,2024,9,6,Idoso
+199,4,3,15000,21,2024-09-06,2024-09-16,Emergência,Paciente_21,73,M,Cirurgia,5000,10,5000.0,2024,9,6,Idoso
+199,2,2,160,21,2024-09-06,2024-09-16,Emergência,Paciente_21,73,M,Exame de sangue,80,10,80.0,2024,9,6,Idoso
+200,5,2,600,77,2024-12-16,2024-12-18,Enfermaria,Paciente_77,21,M,Diária hospitalar,300,2,300.0,2024,12,16,Adulto
