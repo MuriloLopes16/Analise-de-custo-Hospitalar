@@ -32,4 +32,7 @@ Dashboards gerados :
 <img width="597" height="455" alt="Custo por Setor02" src="https://github.com/user-attachments/assets/afc73938-6f1e-4358-8b52-8a1e14801db7" />
 <img width="989" height="590" alt="Custo por Setor03" src="https://github.com/user-attachments/assets/d3af644b-b27e-4954-90da-eb2ee6bc9318" />
 
+Autor : 
+Murilo de Alencar Lopes
+
 
