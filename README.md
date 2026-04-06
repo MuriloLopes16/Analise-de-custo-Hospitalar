@@ -27,3 +27,4 @@ CSV / Excel
 
 Dashboards gerados : 
 
+<img width="597" height="531" alt="Custo por Setor" src="https://github.com/user-attachments/assets/b21ade7b-429f-4e2f-ac9c-3018a4e6bae3" />
